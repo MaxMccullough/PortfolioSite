@@ -3,7 +3,10 @@ import './intro.scss'
 export default function Intro() {
   return (
     <div className='intro'>
-      Hi this is a bit about me
+      <div className="title">
+        <h2>Who is this Max guy?</h2>
+      </div>
+
     </div>
   );
 }
