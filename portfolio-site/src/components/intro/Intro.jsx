@@ -3,8 +3,11 @@ import './intro.scss'
 export default function Intro() {
   return (
     <div className='intro'>
+      <div className='topbarSpace'></div>
       <div className="title">
-        <h2>Who is this Max guy?</h2>
+        Who is this Max guy?
+      
+
       </div>
 
     </div>
