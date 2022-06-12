@@ -2,14 +2,12 @@
     width: calc(100% - 32px);
     left: 16px;
     top: 16px;
-    height: 80px;
+    height: 66px;
     background-color: rgb(173, 125, 48);
     position: fixed;
     border-radius: 15px;
-    transition-timing-function: ease-in;
-    transition: 1s;
     .wrapper{
-        padding: 6px 20px;
+        padding: 0px 20px;
         display: flex;
         align-items: center;
 

@@ -1,9 +1,20 @@
 .intro{
+    padding-top: 120px;
+
     background-color: black;
-    .topbarSpace{
-        padding-top: 110px;
-    }
-    .title{
+    .text{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        //margin-left: clac(100% - 400px);
+        //margin-right: clac(100% - 400px);
         color: white;
+        font-size: 20px;
+        font-weight: 200;
+        .title{
+            color: rgb(173, 125, 48);
+            font-size: 40px;
+            font-weight: 500;
+        }
     }
 }
