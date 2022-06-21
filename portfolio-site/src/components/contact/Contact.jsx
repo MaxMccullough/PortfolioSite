@@ -1,6 +1,6 @@
 import "./contact.scss"
 //import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { LinkedIn, Email, Phone } from '@mui/icons-material/';
+import { LinkedIn, Email, Phone, GitHub } from '@mui/icons-material/';
 export default function Contact() {
     return (
         <div className='intro'>
@@ -15,7 +15,10 @@ export default function Contact() {
             <div className="icon"><div className="email"><Email/></div></div> 
             <a href="max.mccullough.va@gmail.com"><div className="link">max.mccullough.va@gmail.com</div></a><br/>
             <div className="icon"><div className="phone"><Phone/></div></div>
-            (571) 447-8476
+            (571) 447-8476<br/>
+            <div className="icon"><div className="github"><GitHub/></div></div>
+            <a href="https://github.com/MaxMccullough"><div className="link">github.com</div></a><br/>
+
 
             
             
