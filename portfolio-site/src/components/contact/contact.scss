@@ -1,3 +1,42 @@
-.contact{
-    background-color: tan;
+.intro{
+    padding-top: 120px;
+
+    background-color: black;
+    .text{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        //margin-left: clac(100% - 400px);
+        //margin-right: clac(100% - 400px);
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        .link{
+            text-decoration: underline;
+            color: blue;
+            display: inline-block;
+            font-weight: 300;        
+        }
+        .title{
+            color: rgb(173, 125, 48);
+            font-size: 40px;
+            font-weight: 500;
+        }
+        .linkedIn{
+            color: #0072B1;
+        }
+        .email{
+            color: white;
+        }
+        .phone{
+            color: #8db600;
+        }
+
+    }
+}
+.icon{
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
 }
