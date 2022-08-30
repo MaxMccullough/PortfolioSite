@@ -1,5 +1,5 @@
 import './portfolio.scss'
-import { Link, Routes, Route, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default function Portfolio() {
@@ -14,7 +14,11 @@ export default function Portfolio() {
         <div className='subTitle'><br/>
           Hardware Projects
         </div><br/>
+        <div className='subTitle'><br/>
+          Software Projects
+        </div><br/>
         <p><Link to="/projects/thisSite" style={{ textDecoration: 'none', fontSize: '20px', color: 'white', fontWeight: '300' }}>This Website&ensp;</Link></p>
+        <p><Link to="/projects/f1tenth" style={{ textDecoration: 'none', fontSize: '20px', color: 'white', fontWeight: '300' }}>F1tenth&ensp;</Link></p>
 
       </div>
 

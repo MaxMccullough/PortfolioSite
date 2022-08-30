@@ -3,7 +3,9 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import ThisSite from "./components/project/ThisSite";
-import { Link, Routes, Route, Router } from "react-router-dom";
+import F1tenth from "./components/project/F1tenth";
+
+import {  Routes, Route } from "react-router-dom";
 import "./app.scss"
 import React from 'react'
 
@@ -17,7 +19,9 @@ function App() {
           <Route exact path='/intro' element={<Intro />} />
           <Route exact path='/projects' element={<Portfolio />} />
           <Route exact path='/Contact' element={<Contact />} />
-          <Route exact path='/projects/thisSite' element={<ThisSite/>}/>
+          <Route exact path='/projects/thisSite' element={<ThisSite/>}/>          
+          <Route exact path='/projects/f1tenth' element={<F1tenth/>}/>
+
 
       </Routes>
       <div className="sections">
