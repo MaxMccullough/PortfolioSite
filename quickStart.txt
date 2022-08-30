@@ -1,5 +1,0 @@
-How to google fonts: 2:37
-
-how to create a component jsx file: rfc + ctrl + space
-
-to fix sass issue https://stackoverflow.com/questions/58769580/to-import-sass-files-you-first-need-to-install-node-sass
