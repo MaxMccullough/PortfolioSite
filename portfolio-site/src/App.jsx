@@ -5,6 +5,8 @@ import Contact from "./components/contact/Contact";
 import ThisSite from "./components/project/ThisSite";
 import F1tenth from "./components/project/F1tenth";
 import Fun3 from "./components/project/Fun3";
+import Capstone from "./components/project/Capstone";
+
 
 
 import {  Routes, Route } from "react-router-dom";
@@ -24,6 +26,8 @@ function App() {
           <Route exact path='/projects/thisSite' element={<ThisSite/>}/>          
           <Route exact path='/projects/f1tenth' element={<F1tenth/>}/>
           <Route exact path='/projects/fun3' element={<Fun3/>}/>
+          <Route exact path='/projects/capstone' element={<Capstone/>}/>
+
 
       </Routes>
       <div className="sections">
