@@ -13,9 +13,9 @@ export default function F1tenth() {
         In this project I worked with a small team to develop code in ROS to drive a 1/10th scale RC 
         car drive autonomously. This involved processing and filtering data from a Lidar sensor and using 
         that input to make decions on steering and velocity output.
-        <div className="imageContainer">
-            <img src="/assets/car.jpg" alt=""/>
-        </div>
+        <br/><br/>
+        <div className="subTitle">Example Car Used</div>
+        <img src="/assets/car.jpg" alt=""/>
 
       </div>
 

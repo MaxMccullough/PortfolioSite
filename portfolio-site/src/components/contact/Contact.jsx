@@ -8,6 +8,7 @@ export default function Contact() {
             <div className="title">
               Contact me here
             </div>
+            <br/>
             I look forward to hearing from you!
             <br/><br/>
             <div className="icon"><div className="linkedIn"><LinkedIn size="large"/></div></div>

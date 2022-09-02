@@ -5,13 +5,14 @@ export default function ThisSite() {
     <div className='intro'>
       <div className="text">
         <div className="title">
-          Who am I?
+          This Website
         </div>
         <br></br>
-        Hi there! My name is Max McCullough, and I am an undergraudate studying Computer Engineering at The University of Virginia.
-        I have created this website as a better way for potential employers to learn little more 
-        about me, so feel free to take a look around to learn about how I could make a positive 
-        impact at your company.
+        This website is summer project that I made to show off all of the exciting things that I have
+        been able to do throughtout studing computer engineering journey. I decided to use React to build this 
+        website because I wanted to learn something new from my previous website that
+        was made with Django. Web development is not my main focus so I have kept this site fairly simple, but 
+        I still hope this this shows my abaility to learn skills outside of the class.
 
       </div>
 
