@@ -1,4 +1,3 @@
-import { Subtitles } from '@mui/icons-material';
 import './project.scss'
 //import Image from 'mui-image'
 
